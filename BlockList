@@ -1,0 +1,60 @@
+Blocks for API Builder
+1. Start Point
+Description: Starting point for any API, configure basic parameters such as headers and authentication.
+
+2. HTTP Request
+Description: Send a GET, POST, PUT, or DELETE request to a specified endpoint.
+
+3. Response Formatter
+Description: Format or edit the API response into the desired JSON or XML structure.
+
+4. Data Mapping
+Description: Transform and map incoming data to another format or structure.
+
+5. Conditional Logic
+Description: Add if/else structures to follow different paths based on data.
+
+6. Loop
+Description: Repeat actions over a list or dataset.
+
+7. Validation
+Description: Check if incoming data meets predefined rules.
+
+8. Authentication
+Description: Add an authentication step, such as OAuth or API keys.
+
+9. Error Handling
+Description: Define alternative actions in case of errors.
+
+10. Data Storage
+Description: Save data to a database or cache.
+
+11. Webhook Listener
+Description: Set up an endpoint to listen for incoming webhooks.
+
+12. Timer/Delay
+Description: Add a wait time or schedule an action.
+
+13. External Service
+Description: Call an external API or service and process the data.
+
+14. Logging
+Description: Add a block to log actions or data for debugging.
+
+15. Calculation
+Description: Perform calculations or manipulate numeric values (e.g., addition, subtraction).
+
+16. Merge Data
+Description: Combine data from multiple sources into a single object.
+
+17. Split Data
+Description: Split a dataset into smaller parts or arrays.
+
+18. Header Configuration
+Description: Add specific headers to a request or response.
+
+19. Query Parameters
+Description: Add dynamic or static query parameters to a request.
+
+20. Response Generator
+Description: Create a custom response for an endpoint.
