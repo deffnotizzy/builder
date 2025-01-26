@@ -1,5 +1,5 @@
 import React, { useState, useCallback, useRef, useEffect } from 'react';
-import { ReactFlow, Controls, useNodesState, useEdgesState, addEdge } from '@xyflow/react';
+import { ReactFlow, Controls, useNodesState, useEdgesState, addEdge, Background } from '@xyflow/react';
 import '@xyflow/react/dist/base.css';
 
 import WrenchStart from './elements/wrenchBase/wrenchBase';
@@ -88,7 +88,11 @@ const Flow = () => {
         className="flex-1"
         ref={flowRef}
       >
-        <Controls className=' text-blue '/>
+          <Controls className=" flex flex-row center-all text-blue fixed bg-black rounded-full px-7 py-1 border-1 border-blue "
+            position='top-center'
+            orientation='horizontal' />
+
+        <Background />
       </ReactFlow>
 
       {isMenuOpen && (

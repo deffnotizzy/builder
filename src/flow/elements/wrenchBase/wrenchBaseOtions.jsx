@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const wrenchBaseOtions = () => {
   return (
     <menu className=' w-r21 bg-darkgrey rounded-l-xl flex flex-col gap-5'>
@@ -27,6 +28,29 @@ const wrenchBaseOtions = () => {
               <span className=' text-blue'> Actions </span> returns API responses.
             </p>
           </div>
+        </section>
+      </menusection>
+
+      <menusection className=' px-3 '>
+        <section className=' flex flex-col gap-0 '>
+          <h1 className='font-bold text-white '> 
+            Endpoint 
+          </h1>
+          <p className='text-grey text-xs font-bold pb-2'>
+            The endpoint and name of your custom API.
+          </p>
+          <inputlabel className='flex flex-col gap-0 text-white font-bold text-xs'>
+          <label htmlFor="endpoint" className="text-sm font-medium text-white">
+            api/v1/YourEndpoint
+          </label>
+          <input
+            id="endpoint"
+            type="text"
+            placeholder="Enter your endpoint..."
+            className="bg-darkgrey border border-blue text-grey text-sm p-3 rounded-lg focus:outline-none focus:ring-none "
+            required
+          />
+          </inputlabel>
         </section>
       </menusection>
 

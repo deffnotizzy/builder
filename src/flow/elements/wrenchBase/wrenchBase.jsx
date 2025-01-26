@@ -2,7 +2,7 @@ import React from 'react';
 import { Handle, Position } from '@xyflow/react';
 import Icon from '../../assets/WrenchStart.png';
 
-const BaseBlockBuilder = () => {
+const wrenchBase = () => {
   return (
     <div className="flex flex-row bg-darkgrey border-1 border-yellow rounded-xl w-r30 max-w-r30 p-2">
       <div className="flex flex-row gap-2 w-full">
@@ -15,7 +15,7 @@ const BaseBlockBuilder = () => {
         </section>
         <div className="flex flex-col text-white gap-1 w-full">
           <h1 className="text-base font-bold leading-tight"> 
-            Your API Name
+            api/
           </h1>
           <p className="text-grey font-medium text-sm leading-snug"> 
             Drag and drop different blocks to add them to your API. Connect the 
@@ -37,4 +37,4 @@ const BaseBlockBuilder = () => {
   );
 };
 
-export default BaseBlockBuilder;
+export default wrenchBase;
