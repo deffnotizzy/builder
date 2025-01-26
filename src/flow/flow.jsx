@@ -17,8 +17,9 @@ const initialNodes = [
   {
     id: '1',
     type: 'wrenchStart',
-    position: { x: 0, y: 0 },
+    position: { x: 0, y: 0, zoom: 4 },
     draggable: false,
+    deletable: false,
   },
   {
     id: '2',
